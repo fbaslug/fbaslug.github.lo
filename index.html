@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>mi primera pagina web</title>
+    <!--llamo al archivo de java de CSS-->
+    <script defer src="./main.js"> </script>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="./imagenes/logo de j.png" alt="logo de junior">
+        </div>
+        <nav>
+            <ul>
+
+                <a href="http://www.junior.org.ar"><li>HOME</li></a>
+                <a href="#nosotros"><li>NOSOTROS</li></a>
+                <a href="http://www.junior.org.ar"><li>INSCRIPCIONES</li></a>
+                <a href="http://www.junior.org.ar"><li>NOBEDADES</li></a>
+                <a href="http://www.junior.org.ar"><lI>ILUMINI</li></a>
+       
+               </ul>
+        </nav>
+    </header>
+     <div class="presentacion"></div>
+         <h1>¿QUIENES SOMOS?</h1>
+         <p>Somos una Fundación privada sin fines de lucro que implementa programas educativos extracurriculares en las áreas de Educación Financiera, Preparación para el trabajo y Emprendimiento en institutos públicos y privados a nivel nacional. Iniciamos operaciones en marzo del 2002 como una filial de Junior Achievement Worldwide, presente en 132 países.</p>
+   </div>
+
+   </div>
+
+   <!--contenedor generar para poner todas laas noticias-->
+   <div class="contenedor">
+        <div class="caja">
+             <img src="./imagenes/desafio.jpg" alt="desafio">
+             <h1>EL DESAFIO</h1>
+             <p>aDesafío es la acción y efecto de desafiar,
+                <!--este contenido es el que quiero ocultar/smostrar-->
+                una verbo que hace referencia a competir, retar o provocar a alguien. Un desafío puede ser, por lo tanto, una competencia donde una rivalidad queda en manifiesto.</p>
+             <button onclick='muestra_oculta("contenido")' class="btn btn primary" form="contenido">+</button>
+          </div>
+
+
+     <!--contenedor 2-->
+         <div class="caja">
+             <img src="./imagenes/la solucion.jpg" alt="la solucion">
+             <h1>LA SOLUCION</h1>
+             
+             <p>Desde hace 100 años, promovemos una actitud emprendedora en millones de jóvenes 
+                <!--este contenido es el que quiero ocultar/smostrar-->
+                para que se sientan protagonistas y emprendedores de sus propias vidas</P>
+             <button onclick='muestra_oculta("contenido")' class="btn btn primary" form="contenido">+</button>
+           </div>
+
+
+     <!--contenedor 3-->
+         <div class="caja">
+            <img src="./imagenes/impacto.jpg" alt="Impacto">
+             <h1>impacto</h1>
+             
+             <p>Trabajamos en cientos de escuelas cada año formando a miles de jóvenes
+                 <!--este contenido es el que quiero ocultar/smostrar-->
+                para que estén mejor preparados para el futuro.</P> 
+              <button onclick='muestra_oculta("contenido")' class="btn btn primary" form="contenido">+</button>
+         </div>
+    </div>
+ </div>
+   
+ <div class="containar">
+    <div class="row">
+        <div class="col-xl 140px big-info">
+           <h1>PROPUESTA EDUCATIVA</h1>
+        </div>
+        <div class="col-xl-140px">
+            <img src="./imagen 1.1.jpeg" alt="">
+        </div>
+    </div>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+           <div class="carousel-inner">
+             <div class="carousel-item active">
+               <img src="./imagenes/imagen html.jpg" class="d-block w-30" alt="...">
+             </div>
+             <div class="carousel-item">
+               <img src="./imagenes/imagen _html_2.jpg" class="d-block w-30" alt="...">
+             </div>
+             <div class="carousel-item">
+               <img src="./imagenes/imagen_html_3.jpg" class="d-block w-30" alt="...">
+             </div>
+           </div>
+           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+             <span class="visually-hidden">Previous</span>
+           </button>
+           <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+             <span class="carousel-control-next-icon" aria-hidden="true"></span>
+             <span class="visually-hidden">Next</span>
+           </button>
+         </div>
+
+
+    <div>      
+          <div id="nosotros">
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3869.7565833541616!2d-87.19377102543571!3d14.091541589338117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f6fa2d1c6a7bcb7%3A0x9369f36fcfdfe180!2sJunior%20Achievement%20Honduras!5e0!3m2!1ses-419!2shn!4v1708581546847!5m2!1ses-419!2shn" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+             <iframe width="300" height="300" src="https://www.youtube.com/embed/CAvju4e-EPk?si=i7sDJXsHo0MUtrxn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+    </div>
+
+    <footer>
+        <p>Conocé nuestra Política de privacidad | ©2022 Junior Achievement Argentina. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
